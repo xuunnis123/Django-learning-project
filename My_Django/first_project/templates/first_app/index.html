@@ -3,11 +3,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Django Swiss Page</title>
+    <title>Django Test MVT</title>
     <link rel="stylesheet" href="{% static "css/mystyle.css" %}"/>
   </head>
   <body>
-    <h1>Hi this is a picture of Django himself!</h1>
-    <img src="{% static "images/Swiss.jpg" %}" alt="Uh OH,ERROR">
+    <h1>Hi ! Welcome to my django first time to design MVT</h1>
+    <h2> Here are your Access Records:</h2>
+    <!--<img src="{% static "images/Swiss.jpg" %}" alt="Uh OH,ERROR"> -->
+    <div class="djangotwo">
+      {% if access_records %}
+        <table>
+          <thead>
+            <th>Site Name</th>
+            <th>Date Accessed</th>
+          </thead>
+          {% for acc in access_records %}
+          <tr>
+            <td> {{ acc.name}} </td>
+            <td> {{ acc.date}} </td>
+          </tr>
+          {% endfor %}
+        </table>
+      {% else %}
+        <p> No ACCESS RECORDED</p>
+      {% endif %}
+    </div>
   </body>
 </html>
