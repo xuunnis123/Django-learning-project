@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Django User Info</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}"/>
+  </head>
+  <body>
+    <h1>Hi ! Test User Pages</h1>
+    <h2> User List:</h2>
+    <!--<img src="{% static "images/Swiss.jpg" %}" alt="Uh OH,ERROR"> -->
+    <div class="djangotwo">
+      {% if users %}
+      <ol>
+          {% for user in users %}
+          <li>User Info</li>
+          <ul>
+            <li>First Name={{ user.first_name}}</li>
+            <li>Last Name={{ user.last_name}}</li>
+            <li>Email ={{ user.email}}</li>
+          </ul>
+
+
+          {% endfor %}
+      </ol>
+      {% else %}
+        <p> No ACCESS RECORDED</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
