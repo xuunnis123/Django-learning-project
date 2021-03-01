@@ -1,8 +1,6 @@
-# Django-learning-project
-First time to study Django-learning and try some new function
-
-2021/02/25 create "Form" sessions. 學習導入Form功能
-
-2021/02/24 associated with MVT
-
-2021/02/23 update basic views,models,templates
+Django
+===
+目錄
+---
+- [[Django] 導入Form](/jSehEJoWRr2R0UPLbWx3PA)
+- [[Django] 驗證欄位](/-y8JTRtFRMSK1TGnDH_aug)
