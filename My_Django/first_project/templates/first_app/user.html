@@ -10,6 +10,16 @@
     <h1>Hi ! Test User Pages</h1>
     <h2> User List:</h2>
     <!--<img src="{% static "images/Swiss.jpg" %}" alt="Uh OH,ERROR"> -->
+    <div class="container">
+      <h1>Please sign up here</h1>
+        <form method="POST">
+          {{form.as_p}}
+          {% csrf_token %}
+          <input type="submit" class="btn btn-primary" value="Submit">
+
+        </form>
+    </div>
+
     <div class="djangotwo">
       {% if users %}
       <ol>
