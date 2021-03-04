@@ -25,5 +25,5 @@ class FormName(forms.Form):
 class NewUserForm(forms.ModelForm):
     class Meta():
         model=User
-        print('model='+str(model))
+
         fields='__all__'

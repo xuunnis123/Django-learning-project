@@ -2,10 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title><title>
+    <title>Relative</title>
   </head>
   <body>
     <h1>Welocme to RELATIVE_URL_TEMPLATES</h1>
+    <a href="{% url 'basic_app:other' %}">The other page</a>
+    <a href="{% url 'admin:index' %}">The admin page</a>
+    <a href="{% url 'index' %}">The index page</a>
   </body>
 
 </html>
