@@ -10,3 +10,7 @@ def other(request):
 
 def relative(request):
     return render(request,'basic_app/relative_url_templates.html')
+
+def index2(request):
+    context_dict={'text':'Test Template!','number':100}
+    return render(request,'basic_app/index2.html', context_dict)

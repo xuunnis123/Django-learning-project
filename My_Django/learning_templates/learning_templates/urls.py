@@ -22,4 +22,5 @@ urlpatterns = [
     path('',views.index,name='index'),
     path('admin/', admin.site.urls),
     path('basic_app/',include('basic_app.urls')),
+    path('index2',views.index2,name='index2')
 ]
