@@ -10,3 +10,4 @@ Django
 - [[Django] Filter](/BpyOJd65RBWsW0h4S8-48Q)
 - [[Django] 密碼處理前置作業](/T1PBcEThQxGLQnfl_gDzMA)
 - [[Django] User Models](/6_qkYpphQ6C3sJABrEfphA)
+- [[Django] 使用MySQL作為外部資料庫](/AKOZUV6vRYanMz-KMIFIkQ)
