@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from basic_app.forms import UserForm,UserProfileInfoForm
-
+import logging
 # Create your views here.
 def index(request):
     context_dict={'text':'Hello world!','number':100}
@@ -19,13 +19,14 @@ def index2(request):
 def register(request):
     
     registered= False
-
+    logging.error(request.method)
     if request.method == 'POST':
        user_form= UserForm(data=request.POST)
-       profile_form=UserProfileInfoForm 
-
+       profile_form=UserProfileInfoForm(request.POST)
+       logging.error(user_form) 
        if user_form.is_valid() and profile_form.is_valid():
            user=user_form.save()
+           logging.error(user.password())
            user.set_password(user.password)
            user.save()
 
@@ -44,7 +45,9 @@ def register(request):
     else:
         user_form=UserForm()
         profile_form=UserProfileInfoForm()
-    
+    logging.warning(user_form)
+    logging.warning(profile_form)
+    logging.warning(registered)
     return render(request,'basic_app/registeration.html',
     {'user_form':user_form,
     'profile_form':profile_form,
