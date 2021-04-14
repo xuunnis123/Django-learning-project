@@ -12,4 +12,5 @@ Django
 - [[Django] 密碼處理前置作業](/T1PBcEThQxGLQnfl_gDzMA)
 - [[Django] User Models](/6_qkYpphQ6C3sJABrEfphA)
 - [[Django] 使用MySQL作為外部資料庫](/AKOZUV6vRYanMz-KMIFIkQ)
-- [[Django] CBV-視圖類別(Class-based View)](/qapBuqTBRre6sBv9lEmwRQ)]
+- [[Django] CBV-視圖類別(Class-based View)](/qapBuqTBRre6sBv9lEmwRQ)
+- [[Django] form.as_p套用bootstrap顯示](/4ZsXoJB3TmmTrXHcug0KYg)
