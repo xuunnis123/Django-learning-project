@@ -15,3 +15,5 @@ Django
 - [[Django] CBV-視圖類別(Class-based View)](/qapBuqTBRre6sBv9lEmwRQ)
 - [[Django] form.as_p套用bootstrap顯示](/4ZsXoJB3TmmTrXHcug0KYg)
 - [[Django] 從０到CBV](/6o9753MBSp-Bd4k2u_Lhfw)
+- [[Django] Django Template Tag (自定義模板)](/M5GJ_UMVTqKphLp2YeZbsw)
+- [[Django] 小tips](/o-gIz9e0Sjijl2SyPcyP1Q)
