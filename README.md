@@ -18,5 +18,7 @@ Django
 - [[Django] Django Template Tag (自定義模板)](/M5GJ_UMVTqKphLp2YeZbsw)
 - [[Django] 小tips](/o-gIz9e0Sjijl2SyPcyP1Q)
 - [[Django] 資料條件搜尋 Filter with Django CBV](/CvyuxHE6RIyqBWp3uj1ETA)
+---
+-[[React x Django] React Setup](/M7PPnLw4Q5yAFzGw3XoNsQ)
 
 分頁： https://www.taodudu.cc/news/show-356223.html
